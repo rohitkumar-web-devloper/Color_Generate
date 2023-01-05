@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+.container-fluid .row .col {
+  height: 100vh;
+}
+.container-fluid .row .col-lg-4 {
+  position: relative;
+  background-image: url("ASETS2/IMAGES/fog_1.gif");
+  background-size: 100% 100%;
+}
+.container-fluid .row .col-lg-4 .head {
+  position: absolute;
+  left: 25%;
+  top: 2rem;
+}
+.container-fluid .row .col-lg-4 .head h2 {
+  font-size: 3rem;
+}
+.container-fluid .row .col-lg-4 .input {
+  position: absolute;
+  bottom: 10rem;
+  width: 80%;
+  left: 5rem;
+}
+.container-fluid .row .col-lg-4 .input input {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  outline: none;
+}
+.container-fluid .row .col-lg-4 .input button {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=Style.css.map */

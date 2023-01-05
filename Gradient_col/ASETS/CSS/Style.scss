@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik+Microbe&display=swap');
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Rubik Microbe', cursive;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+// Variables
+$white:#fff;
+$black:#000;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+// REUSABLE CODE
+h4{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+button{
+    &:hover{
+        background: gray;
+    }
+}
+
+
+.container-fluid{
+    .row{
+        .col{
+            height: 100vh;
+        }
+        .col-lg-3{
+            position: relative;
+            .head{
+                position: absolute;
+                h3{
+                    font-size: 2.5rem;
+                    font-family: 'Rubik Microbe', cursive;
+                    font-weight: 800;
+                    
+                }
+            }
+            .style{
+                position: absolute;
+                top: 15rem;
+                button{
+                    padding: .5rem 2rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    border: none;
+                    border-radius: 5px;
+                    margin-left: 1rem;
+                }
+            }
+            .direction{
+                position: absolute;
+                top: 25rem;
+                button{
+                    padding: 1rem 2.5rem;
+                    margin-left: 1rem;
+                    border: none;
+                    border-radius: 5px;
+                    margin-bottom: 2rem;
+                }
+            }
+            .color{
+                position: absolute;
+                top: 40rem;
+                input{
+                    width: 8rem;
+                    height: 3.5rem;
+                    border: none;
+                    outline: none;
+                    margin-left: 1rem;
+                    cursor: pointer;
+                }
+            }
+            .random{
+                position: absolute;
+                top: 50rem;
+                margin-left: 1rem;
+                font-size: 1.4rem;
+                button{
+                    padding: .5rem 3rem;
+                    margin-right: 1rem;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            .get_css{
+                position: absolute;
+                top: 57rem;
+              button{
+                margin-left: 1rem;
+                border: none;
+                font-size: 1.5rem;
+                font-family: 'Rubik Microbe', cursive;
+                font-weight: 600;
+                padding: .5rem 10rem;
+                border-radius: 5px;
+              } 
+            }
+            .link{
+                position: absolute;
+                top: 62rem;
+               button{
+                // margin-left: .2rem;
+                border: none;
+                font-size: 1.5rem;
+                font-family: 'Rubik Microbe', cursive;
+                font-weight: 600;
+                padding: .5rem .5rem;
+                border-radius: 5px;
+                margin-bottom: 1rem;
+                a{
+                    text-decoration: none;
+                        font-size: 1.5rem;
+                        color: black;
+                }
+               }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:989px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+

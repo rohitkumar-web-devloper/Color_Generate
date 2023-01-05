@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Rubik+Microbe&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  background: gray;
+}
+
+.container-fluid .row .col {
+  height: 100vh;
+}
+.container-fluid .row .col-lg-3 {
+  position: relative;
+}
+.container-fluid .row .col-lg-3 .head {
+  position: absolute;
+}
+.container-fluid .row .col-lg-3 .head h3 {
+  font-size: 2.5rem;
+  font-family: "Rubik Microbe", cursive;
+  font-weight: 800;
+}
+.container-fluid .row .col-lg-3 .style {
+  position: absolute;
+  top: 15rem;
+}
+.container-fluid .row .col-lg-3 .style button {
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.container-fluid .row .col-lg-3 .direction {
+  position: absolute;
+  top: 25rem;
+}
+.container-fluid .row .col-lg-3 .direction button {
+  padding: 1rem 2.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.container-fluid .row .col-lg-3 .color {
+  position: absolute;
+  top: 40rem;
+}
+.container-fluid .row .col-lg-3 .color input {
+  width: 8rem;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.container-fluid .row .col-lg-3 .random {
+  position: absolute;
+  top: 50rem;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+.container-fluid .row .col-lg-3 .random button {
+  padding: 0.5rem 3rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.container-fluid .row .col-lg-3 .get_css {
+  position: absolute;
+  top: 57rem;
+}
+.container-fluid .row .col-lg-3 .get_css button {
+  margin-left: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  font-family: "Rubik Microbe", cursive;
+  font-weight: 600;
+  padding: 0.5rem 10rem;
+  border-radius: 5px;
+}
+.container-fluid .row .col-lg-3 .link {
+  position: absolute;
+  top: 62rem;
+}
+.container-fluid .row .col-lg-3 .link button {
+  border: none;
+  font-size: 1.5rem;
+  font-family: "Rubik Microbe", cursive;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.container-fluid .row .col-lg-3 .link button a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media screen and (max-width: 989px) {
+  html {
+    font-size: 55%;
+  }
+}/*# sourceMappingURL=Style.css.map */
